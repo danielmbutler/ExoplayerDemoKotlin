@@ -117,7 +117,7 @@ class MainActivity : AppCompatActivity(), Player.Listener {
 
     override fun onDestroy() {
         super.onDestroy()
-        Log.d(TAG, "onSaveInstanceState: " + player!!.currentPosition)
+        Log.d(TAG, "onSaveInstanceState: " + player.currentPosition)
     }
 
     companion object {
